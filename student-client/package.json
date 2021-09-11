@@ -1,15 +1,17 @@
 {
-  "name": "student-client",
+  "name": "liaplatform_frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/data-grid": "^4.0.0-alpha.37",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "@types/jest": "^26.0.24",
-    "@types/node": "^12.20.24",
-    "@types/react": "^17.0.20",
+    "@types/node": "^12.20.23",
+    "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9",
+    "notistack": "^1.0.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -39,5 +41,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@types/react-router-dom": "^5.1.8",
+    "react-router-dom": "^5.2.1"
   }
 }
