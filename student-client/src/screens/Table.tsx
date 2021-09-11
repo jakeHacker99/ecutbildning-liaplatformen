@@ -23,7 +23,7 @@ const Table = () => {
 
 
   const [mail, setMail] = useState("");
-  const [websiteLink, setWebsiteLink] = useState("Jakobs.se");
+  const [websiteLink, setWebsiteLink] = useState("### jakeHacker99#");
 
   return (
     <div
@@ -56,6 +56,8 @@ const Table = () => {
                     window.navigator.clipboard.writeText(websiteLink);
                     // @ts-ignore
                     inputRef.current.click();
+                    window.navigator.clipboard.read();
+          
                   }}
                 >
 
